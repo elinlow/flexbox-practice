@@ -1,0 +1,210 @@
+body {
+    background-color: #E5E5E5;
+}
+
+/*FIRST FLEX CONTAINER*/
+
+.flex-container {
+    height: 100vh;
+    background-color: rgb(51, 8, 8);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+/*ALL CARDS*/
+
+.cards {
+    width: 468px;
+    height: 160px;
+    left: 98px;
+    top: 90px;    
+    background-color: #F48C06;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+}
+
+/*CARD ONE*/
+.card-one {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.card-one__box-one, .card-one__box-two, .card-one__box-three {
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 15px;
+    margin-right: 7,5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+}
+
+/*CARD TWO*/
+.card-two {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-two__box-one, .card-two__box-two, .card-two__box-three {
+    width: 78px;
+    height: 120px;
+    left: 683px;
+    top: 110px;
+    margin-left: 15px;
+    margin-right: 7,5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px #000000;
+    background: #9D0208;
+    border-radius: 4px;
+}
+
+/*CARD THREE*/
+.card-three {
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-three__box-one, .card-three__box-two, .card-three__box-three {
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 7,5px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 4px #000000;
+    background: #9D0208;
+    border-radius: 4px;
+}
+
+/*CARD FOUR*/
+.card-four {
+    justify-content: space-between;
+}
+
+.card-four__box-three {
+    align-self: flex-end;
+}
+
+.card-four__box-one, .card-four__box-two, .card-four__box-three {
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+/*CARD FIVE*/
+.card-five {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+p {
+    flex-direction: row;
+}
+
+.card-five__box-one, .card-five__box-three {
+    width: 78px;
+    height: 120px;
+    left: 683px;
+    top: 110px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+}
+
+.card-five__box-two {
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+}
+
+.box-text {
+    justify-content: center;
+    flex-direction: row;
+    width: 54px;
+    height: 14px;
+    left: 173px;
+    top: 504px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+/*CARD SIX*/
+.card-six {
+    align-items: center;
+    justify-content: center;
+}
+
+.card-six__box-one, .card-six__box-three {
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 7,5px;
+    margin-right: 7,5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.card-six__box-two {
+    width: 158px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background: #9D0208;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+/*SECOND FLEX CONTAINER*/
+
+.flex-container-2 {
+    height: 100vh;
+    background-color: #f4a906;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
